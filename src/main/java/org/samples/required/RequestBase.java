@@ -1,7 +1,7 @@
 package org.samples.required;
 
 import jakarta.servlet.http.Part;
-import org.samples.Request;
+import org.samples._2_Request;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -13,7 +13,7 @@ public class RequestBase {
      */
     protected static final int CACHED_POST_LEN = 8192;
     protected Parameters response;
-    protected Request coyoteRequest;
+    protected _2_Request coyoteRequest;
     protected Parameters sm;
     /**
      * Using stream flag.

@@ -11,7 +11,7 @@ import java.nio.charset.Charset;
 import java.security.InvalidParameterException;
 
 
-public class Request extends RequestBase {
+public class _2_Request extends RequestBase {
 
   public void doParseParameters() {
     if (parametersParsed) {
